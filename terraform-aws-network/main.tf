@@ -8,7 +8,7 @@ resource "aws_vpc" "demo_vpc" {
   cidr_block = "${var.vpc_cidr_block}"
 
   tags {
-    Name = "fp_demo_vpc-test"
+    Name = "fp_demo_vpc-test2"
   }
 }
 
@@ -18,6 +18,6 @@ resource "aws_subnet" "demo_subnet" {
   availability_zone = "${var.subnet_availability_zone}"
 
   tags {
-    Name = "fp_demo_subnet-test"
+    Name = "fp_demo_subnet-test2"
   }
 }
